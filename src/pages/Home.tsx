@@ -17,7 +17,6 @@ const HomePage: React.FC = () => {
     { icon: Briefcase, value: '9+', label: language === 'en' ? 'Years Experience' : 'سنوات خبرة' },
     { icon: Users, value: '200+', label: language === 'en' ? 'Happy Clients' : 'عميل سعيد' },
     { icon: Star, value: '500+', label: language === 'en' ? 'Projects Completed' : 'مشروع مكتمل' },
-    { icon: Award, value: '15+', label: language === 'en' ? 'Awards Won' : 'جائزة' },
   ];
 
   const featuredProjects = [
