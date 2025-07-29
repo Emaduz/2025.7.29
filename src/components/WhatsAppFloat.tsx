@@ -17,7 +17,7 @@ const WhatsAppFloat: React.FC = () => {
   return (
     <button
       onClick={handleWhatsAppClick}
-      className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110 animate-pulse"
+      className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white rounded-full p-4 shadow-lg transition-all duration-300 hover:scale-110 animate-fade"
       aria-label="Contact via WhatsApp"
     >
       <MessageCircle className="h-6 w-6" />
