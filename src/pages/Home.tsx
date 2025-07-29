@@ -24,19 +24,19 @@ const HomePage: React.FC = () => {
       id: 1,
       title: language === 'en' ? 'Corporate Branding' : 'الهوية التجارية',
       category: language === 'en' ? 'Branding' : 'علامة تجارية',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/7a490297-a2a4-4fbe-ab5c-48a6315f9db5.jpg',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/d658ae214380481.675743f07fafe.jpeg',
     },
     {
       id: 2,
       title: language === 'en' ? 'Logo Design Collection' : 'مجموعة تصميم الشعارات',
       category: language === 'en' ? 'Logo Design' : 'تصميم شعارات',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/95a360c9-2126-4c2f-8368-9968256a5d96.jpg',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/8ee541214380481.675743f0859e7.jpeg',
     },
     {
       id: 3,
       title: language === 'en' ? 'Print Materials' : 'المواد المطبوعة',
       category: language === 'en' ? 'Print Design' : 'تصميم طباعي',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/c69cd136-f214-49f9-8e9d-afd6449d97cc.jpg',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/7c3596214380481.675743f08b052.jpeg',
     },
   ];
 
