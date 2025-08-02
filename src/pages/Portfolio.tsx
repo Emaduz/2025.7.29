@@ -12,7 +12,7 @@ interface Project {
   id: number;
   title: { en: string; ar: string };
   category: 'all' | 'logos' | 'branding' | 'print' | 'Social Media';
-  images: string[];
+  image: string;
   description: { en: string; ar: string };
   tags: string[];
 }
