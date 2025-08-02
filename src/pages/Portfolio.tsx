@@ -22,16 +22,15 @@ const PortfolioPage: React.FC = () => {
   const { t } = useTranslation(language);
   const [activeFilter, setActiveFilter] = useState<'all' | 'logos' | 'branding' | 'print' | 'Social Media'>('all');
 
-const projects: Project[] = [
-  {
-    id: 1,
-    title: { en: 'Balsam Taiba Medical Co. Identity Design', ar: 'تصميم شعار وهوية شركة بلسم طيبة الطبية' },
-    category: 'branding',
-    images: [
-      'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/99702f156295027.636447c7d2b1d.jpg',
-      'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/992835156295027.636447c7dc9a0.jpg',
-      'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/cfd3db156295027.636447c7d4ebc.jpg'
-    ],
+  const projects: Project[] = [
+    {
+      id: 1,
+      title: { en: 'Balsam Taiba Medical Co. Identity Design', ar: 'تصميم شعار وهوية شركة بلسم طيبة الطبية' },
+      category: 'branding',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/60f7a4214380481.675743f08799d.jpeg',
+      description: { en: 'Complete brand identity package for tech company', ar: 'حزمة هوية تجارية كاملة لشركة تقنية' },
+      tags: ['Branding', 'Logo', 'Guidelines'],
+    },
     description: { en: 'Complete brand identity package for tech company', ar: 'حزمة هوية تجارية كاملة لشركة تقنية' },
     tags: ['Branding', 'Logo', 'Guidelines'],
   },
