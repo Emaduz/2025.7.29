@@ -35,7 +35,7 @@ const PortfolioPage: React.FC = () => {
       id: 2,
       title: { en: 'Caesr Restaurant Logo Brand', ar: 'تصميم شعار سلسلة مطاعم القيصر' },
       category: 'logos',
-      image: 'https://mir-cdn.behance.net/v1/rendition/project_modules/fs_webp/bf247b199510245.66532c1d1bdf2.jpg',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/75670b214380481.675743f088b9a.jpeg',
       description: { en: 'Modern logo designs for restaurant chain', ar: 'تصاميم شعارات عصرية لسلسلة مطاعم' },
       tags: ['Logo', 'Food', 'Modern'],
     },
