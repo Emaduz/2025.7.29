@@ -20,22 +20,22 @@ interface Project {
 const PortfolioPage: React.FC = () => {
   const { language } = useTheme();
   const { t } = useTranslation(language);
-  const [activeFilter, setActiveFilter] = useState<'all' | 'logos' | 'branding' | 'print' | 'uiux'>('all');
+  const [activeFilter, setActiveFilter] = useState<'all' | 'logos' | 'branding' | 'print' | 'Social Media'>('all');
 
   const projects: Project[] = [
     {
       id: 1,
-      title: { en: 'Corporate Identity Design', ar: 'تصميم الهوية التجارية' },
+      title: { en: 'Balsam Taiba Medical Co. Identity Design', ar: 'تصميم شعار وهوية شركة بلسم طيبة الطبية' },
       category: 'branding',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/e745546e-b12d-4d81-883a-23c25362caf8.jpg',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/60f7a4214380481.675743f08799d.jpeg',
       description: { en: 'Complete brand identity package for tech company', ar: 'حزمة هوية تجارية كاملة لشركة تقنية' },
       tags: ['Branding', 'Logo', 'Guidelines'],
     },
     {
       id: 2,
-      title: { en: 'Restaurant Logo Collection', ar: 'مجموعة شعارات مطاعم' },
+      title: { en: 'Caesr Restaurant Logo Brand', ar: 'تصميم شعار سلسلة مطاعم القيصر' },
       category: 'logos',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/1cb7265b-3145-47cc-a1a0-f85c88815296.jpg',
+      image: 'https://mir-cdn.behance.net/v1/rendition/project_modules/fs_webp/bf247b199510245.66532c1d1bdf2.jpg',
       description: { en: 'Modern logo designs for restaurant chain', ar: 'تصاميم شعارات عصرية لسلسلة مطاعم' },
       tags: ['Logo', 'Food', 'Modern'],
     },
@@ -43,49 +43,49 @@ const PortfolioPage: React.FC = () => {
       id: 3,
       title: { en: 'Annual Report Design', ar: 'تصميم التقرير السنوي' },
       category: 'print',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/3b615d10-a1fa-4339-9021-0ec574ad94d4.jpg',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/6c98f5214380481.675743f092c71.jpeg',
       description: { en: 'Professional annual report layout and design', ar: 'تخطيط وتصميم تقرير سنوي احترافي' },
       tags: ['Print', 'Layout', 'Corporate'],
     },
     {
       id: 4,
-      title: { en: 'Mobile App Interface', ar: 'واجهة تطبيق محمول' },
-      category: 'uiux',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/dc3224b1-eb04-44f0-aef0-e554f200ec97.jpg',
-      description: { en: 'User-friendly mobile application design', ar: 'تصميم تطبيق محمول سهل الاستخدام' },
-      tags: ['UI/UX', 'Mobile', 'App'],
+      title: { en: 'Social Media Adv', ar: 'تصاميم السوشال ميديا' },
+      category: 'Social Media',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/bed92e214380481.675743f08c922.jpeg',
+      description: { en: 'Expert social media design', ar: 'تصميم احترافي لوسائل التواصل الاجتماعي' },
+      tags: ['Ai/Ps', 'Social', 'Design'],
     },
     {
       id: 5,
-      title: { en: 'Fashion Brand Identity', ar: 'هوية علامة أزياء' },
+      title: { en: 'Logo Brand & Identity For Ekleel Alenayah Medical Co.', ar: 'شعار وهوية بصرية لشركة إكليل العناية الطبية' },
       category: 'branding',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/0d3e36f8-ab6c-43cd-ba48-8c58ca4c9386.jpg',
-      description: { en: 'Luxury fashion brand visual identity', ar: 'هوية بصرية لعلامة أزياء فاخرة' },
-      tags: ['Fashion', 'Luxury', 'Branding'],
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/d658ae214380481.675743f07fafe.jpeg',
+      description: { en: 'Luxury medical brand visual identity', ar: 'هوية بصرية فاخرة لعلامة طبية' },
+      tags: ['Medica', 'Luxury', 'Branding'],
     },
     {
       id: 6,
-      title: { en: 'Tech Startup Logos', ar: 'شعارات شركات تقنية ناشئة' },
+      title: { en: 'Al Khattabi Press Logo', ar: 'شعار مطابع الخطابي' },
       category: 'logos',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/ce073c5a-5a64-42d0-a8ba-d352550ffad8.jpg',
-      description: { en: 'Innovative logos for technology startups', ar: 'شعارات مبتكرة للشركات التقنية الناشئة' },
-      tags: ['Technology', 'Startup', 'Innovation'],
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/063a91214380481.675743f0844b9.jpeg',
+      description: { en: 'Innovative logos for Printing Press startups', ar: 'شعار مبتكر لشركة طباعة' },
+      tags: ['Printing', 'Startup', 'Materials'],
     },
     {
       id: 7,
-      title: { en: 'Magazine Layout Design', ar: 'تصميم تخطيط مجلة' },
+      title: { en: 'Bahaa Silver Logo Design', ar: 'تصميم شعار شركة بهاء الفضة' },
       category: 'print',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/af01bd90-a33a-4062-be30-93ea8791eb15.jpg',
-      description: { en: 'Creative magazine layout and typography', ar: 'تخطيط مجلة إبداعي وطباعة متقنة' },
-      tags: ['Magazine', 'Typography', 'Layout'],
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/c99968214380481.675743f086a49.jpeg',
+      description: { en: 'Creative Brand Logo by typography', ar: 'شعار علامة تجارية إبداعي بطريقة التايبوجرافي' },
+      tags: ['Gold & Silver', 'Typography', 'Layout'],
     },
     {
       id: 8,
-      title: { en: 'E-commerce Website Design', ar: 'تصميم موقع تجارة إلكترونية' },
-      category: 'uiux',
-      image: 'https://pub-cdn.sider.ai/u/U0AWH647XGE/web-coder/68867f69f2d3a0ac8dcde35e/resource/71185495-116e-4f71-a509-6dfef686521e.jpg',
-      description: { en: 'Modern e-commerce platform design', ar: 'تصميم منصة تجارة إلكترونية عصرية' },
-      tags: ['E-commerce', 'Web', 'UX'],
+      title: { en: 'Jenan Yemeni Hony Logo Design', ar: 'تصميم شعار شركة جنان للعسل اليمني' },
+      category: 'Branding',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/7c3596214380481.675743f08b052.jpeg',
+      description: { en: 'Modern commerce branding design', ar: 'تصميم هوية تجارية عصرية' },
+      tags: ['Commerce', 'Branding', 'Logo'],
     },
   ];
 
@@ -94,7 +94,7 @@ const PortfolioPage: React.FC = () => {
     { key: 'logos', label: { en: 'Logos', ar: 'الشعارات' } },
     { key: 'branding', label: { en: 'Branding', ar: 'العلامة التجارية' } },
     { key: 'print', label: { en: 'Print Design', ar: 'التصميم الطباعي' } },
-    { key: 'uiux', label: { en: 'UI/UX', ar: 'واجهات المستخدم' } },
+    { key: 'Social Media', label: { en: 'Social Media', ar: 'تصاميم وسائل التواصل الإجماعي' } },
   ];
 
   const filteredProjects = activeFilter === 'all' 
