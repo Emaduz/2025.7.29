@@ -12,7 +12,7 @@ interface Project {
   id: number;
   title: { en: string; ar: string };
   category: 'all' | 'logos' | 'branding' | 'print' | 'socialmedia';
-  image: string;
+  image: string[];
   description: { en: string; ar: string };
   tags: string[];
 }
@@ -27,7 +27,7 @@ const PortfolioPage: React.FC = () => {
       id: 1,
       title: { en: 'Balsam Taiba Medical Co. Identity Design', ar: 'تصميم شعار وهوية شركة بلسم طيبة الطبية' },
       category: 'branding',
-      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/60f7a4214380481.675743f08799d.jpeg',
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/60f7a4214380481.675743f08799d.jpeg'],
       description: { en: 'Complete brand identity package for tech company', ar: 'حزمة هوية تجارية كاملة لشركة تقنية' },
       tags: ['branding', 'Logo', 'Guidelines'],
     },
@@ -35,7 +35,7 @@ const PortfolioPage: React.FC = () => {
       id: 2,
       title: { en: 'Caesar Restaurant Logo Brand', ar: 'تصميم شعار سلسلة مطاعم القيصر' },
       category: 'logos',
-      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/75670b214380481.675743f088b9a.jpeg',
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/75670b214380481.675743f088b9a.jpeg'],
       description: { en: 'Modern logo designs for restaurant chain', ar: 'تصاميم شعارات عصرية لسلسلة مطاعم' },
       tags: ['Logo', 'Food', 'Modern'],
     },
@@ -43,7 +43,7 @@ const PortfolioPage: React.FC = () => {
       id: 3,
       title: { en: 'Annual Report Design', ar: 'تصميم التقرير السنوي' },
       category: 'print',
-      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/6c98f5214380481.675743f092c71.jpeg',
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/6c98f5214380481.675743f092c71.jpeg'],
       description: { en: 'Professional annual report layout and design', ar: 'تخطيط وتصميم تقرير سنوي احترافي' },
       tags: ['Print', 'Layout', 'Corporate'],
     },
@@ -51,7 +51,7 @@ const PortfolioPage: React.FC = () => {
       id: 4,
       title: { en: 'Social Media Adv', ar: 'تصاميم السوشال ميديا' },
       category: 'socialmedia',
-      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/bed92e214380481.675743f08c922.jpeg',
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/bed92e214380481.675743f08c922.jpeg'],
       description: { en: 'Expert social media design', ar: 'تصميم احترافي لوسائل التواصل الاجتماعي' },
       tags: ['Ai/Ps', 'Social', 'Design'],
     },
@@ -59,7 +59,7 @@ const PortfolioPage: React.FC = () => {
       id: 5,
       title: { en: 'Logo Brand & Identity For Ekleel Alenayah Medical Co.', ar: 'شعار وهوية بصرية لشركة إكليل العناية الطبية' },
       category: 'branding',
-      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/d658ae214380481.675743f07fafe.jpeg',
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/d658ae214380481.675743f07fafe.jpeg'],
       description: { en: 'Luxury medical brand visual identity', ar: 'هوية بصرية فاخرة لعلامة طبية' },
       tags: ['Medica', 'Luxury', 'Branding'],
     },
@@ -67,7 +67,7 @@ const PortfolioPage: React.FC = () => {
       id: 6,
       title: { en: 'Al Khattabi Press Logo', ar: 'شعار مطابع الخطابي' },
       category: 'logos',
-      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/063a91214380481.675743f0844b9.jpeg',
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/063a91214380481.675743f0844b9.jpeg'],
       description: { en: 'Innovative logos for Printing Press startups', ar: 'شعار مبتكر لشركة طباعة' },
       tags: ['Printing', 'Startup', 'Materials'],
     },
@@ -75,7 +75,7 @@ const PortfolioPage: React.FC = () => {
       id: 7,
       title: { en: 'Bahaa Silver Logo Design', ar: 'تصميم شعار شركة بهاء الفضة' },
       category: 'print',
-      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/c99968214380481.675743f086a49.jpeg',
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/c99968214380481.675743f086a49.jpeg'],
       description: { en: 'Creative Brand Logo by typography', ar: 'شعار علامة تجارية إبداعي بطريقة التايبوجرافي' },
       tags: ['Gold & Silver', 'Typography', 'Layout'],
     },
@@ -83,7 +83,7 @@ const PortfolioPage: React.FC = () => {
       id: 8,
       title: { en: 'Jenan Yemeni Hony Logo Design', ar: 'تصميم شعار شركة جنان للعسل اليمني' },
       category: 'branding',
-      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/7c3596214380481.675743f08b052.jpeg',
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/7c3596214380481.675743f08b052.jpeg'],
       description: { en: 'Modern commerce branding design', ar: 'تصميم هوية تجارية عصرية' },
       tags: ['Commerce', 'Branding', 'Logo'],
     },
@@ -122,11 +122,10 @@ const PortfolioPage: React.FC = () => {
               onClick={() => setActiveFilter(filter.key as any)}
               variant={activeFilter === filter.key ? "default" : "outline"}
               className={
-                {activeFilter === filter.key 
+                activeFilter === filter.key 
                   ? 'bg-[#8f1819] hover:bg-[#bd7b6a] text-white' 
                   : 'border-[#9c7860] text-[#9c7860] hover:bg-[#9c7860] hover:text-white dark:border-[#d9cab1] dark:text-[#d9cab1] dark:hover:bg-[#d9cab1] dark:hover:text-[#1a1a1a] bg-transparent'
-                }
-              
+              }
             >
               {filter.label[language]}
             </Button>
@@ -143,7 +142,7 @@ const PortfolioPage: React.FC = () => {
               {/* Project Image */}
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src={project.image}
+                  src={project.image[0]}
                   alt={project.title[language]}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                 />
