@@ -94,7 +94,7 @@ const PortfolioPage: React.FC = () => {
     { key: 'logos', label: { en: 'Logos', ar: 'الشعارات' } },
     { key: 'branding', label: { en: 'Branding', ar: 'العلامة التجارية' } },
     { key: 'print', label: { en: 'Print Design', ar: 'التصميم الطباعي' } },
-    { key: 'Social Media', label: { en: 'Social Media', ar: 'تصاميم وسائل التواصل الإجماعي' } },
+    { key: 'socialmedia', label: { en: 'Social Media', ar: 'تصاميم وسائل التواصل الإجماعي' } },
   ];
 
   const filteredProjects = activeFilter === 'all'
