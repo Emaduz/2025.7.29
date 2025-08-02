@@ -20,7 +20,7 @@ interface Project {
 const PortfolioPage: React.FC = () => {
   const { language } = useTheme();
   const { t } = useTranslation(language);
-  const [activeFilter, setActiveFilter] = useState<'all' | 'logos' | 'branding' | 'print' | 'Social Media'>('all');
+  const [activeFilter, setActiveFilter] = useState<'all' | 'logos' | 'branding' | 'print' | 'socialmedia'>('all');
 
   const projects: Project[] = [
     {
@@ -29,7 +29,7 @@ const PortfolioPage: React.FC = () => {
       category: 'branding',
       image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/60f7a4214380481.675743f08799d.jpeg',
       description: { en: 'Complete brand identity package for tech company', ar: 'حزمة هوية تجارية كاملة لشركة تقنية' },
-      tags: ['Branding', 'Logo', 'Guidelines'],
+      tags: ['branding', 'Logo', 'Guidelines'],
     },
     {
       id: 2,
@@ -50,7 +50,7 @@ const PortfolioPage: React.FC = () => {
     {
       id: 4,
       title: { en: 'Social Media Adv', ar: 'تصاميم السوشال ميديا' },
-      category: 'Social Media',
+      category: 'socialmedia',
       image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/bed92e214380481.675743f08c922.jpeg',
       description: { en: 'Expert social media design', ar: 'تصميم احترافي لوسائل التواصل الاجتماعي' },
       tags: ['Ai/Ps', 'Social', 'Design'],
@@ -82,14 +82,14 @@ const PortfolioPage: React.FC = () => {
     {
       id: 8,
       title: { en: 'Jenan Yemeni Hony Logo Design', ar: 'تصميم شعار شركة جنان للعسل اليمني' },
-      category: 'Branding',
+      category: 'branding',
       image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/7c3596214380481.675743f08b052.jpeg',
       description: { en: 'Modern commerce branding design', ar: 'تصميم هوية تجارية عصرية' },
       tags: ['Commerce', 'Branding', 'Logo'],
     },
   ];
 
-  const filters = ['
+  const filters = [
     { key: 'all', label: { en: 'All Projects', ar: 'جميع المشاريع' } },
     { key: 'logos', label: { en: 'Logos', ar: 'الشعارات' } },
     { key: 'branding', label: { en: 'Branding', ar: 'العلامة التجارية' } },
@@ -97,7 +97,7 @@ const PortfolioPage: React.FC = () => {
     { key: 'Social Media', label: { en: 'Social Media', ar: 'تصاميم وسائل التواصل الإجماعي' } },
   ];
 
-  const filteredProjects = activeFilter === 'all' 
+  const filteredProjects = activeFilter === 'all'
     ? projects 
     : projects.filter(project => project.category === activeFilter);
 
