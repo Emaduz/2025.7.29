@@ -23,7 +23,7 @@ const ServicesPage: React.FC = () => {
 
   const services: Service[] = [
     {
-      icon: Palette,
+      icon: PenTool,
       title: { en: 'Logo Design', ar: 'تصميم الشعارات' },
       description: { 
         en: 'Creating unique and memorable logos that represent your brand identity perfectly.',
@@ -37,7 +37,7 @@ const ServicesPage: React.FC = () => {
       popular: true,
     },
     {
-      icon: Layout,
+      icon: Layers,
       title: { en: 'Brand Identity', ar: 'الهوية التجارية' },
       description: { 
         en: 'Complete brand identity packages including logo, colors, typography, and guidelines.',
@@ -60,24 +60,24 @@ const ServicesPage: React.FC = () => {
         en: ['Brochure Design', 'Flyer Design', 'Poster Design', 'Magazine Layout', 'Packaging Design', 'Print-Ready Files'],
         ar: ['تصميم الكتيبات', 'تصميم النشرات', 'تصميم الملصقات', 'تخطيط المجلات', 'تصميم التعبئة', 'ملفات جاهزة للطباعة']
       },
-      price: { en: 'Starting at $100', ar: 'ابتداءً من 100$' },
+      price: { en: 'Starting at $50', ar: 'ابتداءً من 50$' },
     },
     {
       icon: Smartphone,
-      title: { en: 'UI/UX Design', ar: 'تصميم واجهات المستخدم' },
+      title: { en: 'Social Media Design', ar: 'تصميم صفحات التواصل الإجتماعية' },
       description: { 
-        en: 'User-centered mobile and web application design with focus on usability and aesthetics.',
-        ar: 'تصميم تطبيقات محمولة وويب محورها المستخدم مع التركيز على سهولة الاستخدام والجماليات.'
+        en: 'Creative and engaging visuals tailored for social media platforms to enhance brand presence and audience interaction.',
+        ar: 'تصاميم إبداعية وجذابة مخصصة لمنصات التواصل الاجتماعي لتعزيز حضور العلامة التجارية وزيادة تفاعل الجمهور.'
       },
       features: {
-        en: ['Wireframing', 'Prototyping', 'Mobile App Design', 'Web Design', 'User Research', 'Usability Testing'],
-        ar: ['الإطار السلكي', 'النماذج الأولية', 'تصميم التطبيقات المحمولة', 'تصميم الويب', 'بحث المستخدم', 'اختبار سهولة الاستخدام']
+        en: ['Creative social media posts, stories, ads, and branding designs to boost engagement.'],
+        ar: ['تصاميم إبداعية للمنشورات والقصص والإعلانات والهوية البصرية لزيادة التفاعل.']
       },
-      price: { en: 'Starting at $300', ar: 'ابتداءً من 300$' },
+      price: { en: 'Starting at $150', ar: 'ابتداءً من 150$' },
     },
     {
-      icon: Globe,
-      title: { en: 'Web Design', ar: 'تصميم المواقع' },
+      icon: IdCard,
+      title: { en: 'Profile Design', ar: 'تصميم البروفايلات' },
       description: { 
         en: 'Modern and responsive website designs that engage users and drive conversions.',
         ar: 'تصاميم مواقع عصرية ومتجاوبة تجذب المستخدمين وتحقق التحويلات.'
@@ -89,15 +89,15 @@ const ServicesPage: React.FC = () => {
       price: { en: 'Starting at $500', ar: 'ابتداءً من 500$' },
     },
     {
-      icon: Camera,
-      title: { en: 'Social Media Design', ar: 'تصميم وسائل التواصل' },
+      icon: Package,
+      title: { en: 'Packaging Design', ar: 'تصميم التغليف' },
       description: { 
-        en: 'Eye-catching social media graphics and templates for all major platforms.',
-        ar: 'جرافيك وسائل التواصل الاجتماعي ونماذج جذابة لجميع المنصات الرئيسية.'
+        en: 'Creative and functional packaging that enhances product appeal and strengthens brand identity.',
+        ar: 'تصاميم تغليف إبداعية وعملية تعزز جاذبية المنتج وتقوي هوية العلامة التجارية.'
       },
       features: {
-        en: ['Instagram Posts', 'Facebook Covers', 'Twitter Headers', 'LinkedIn Banners', 'Story Templates', 'Animated Graphics'],
-        ar: ['منشورات إنستغرام', 'أغلفة فيسبوك', 'رؤوس تويتر', 'بانرات لينكدإن', 'قوالب القصص', 'رسوم متحركة']
+        en: ['Box Design', 'Label Design', 'Product Mockups', 'Bag & Pouch Design', 'Custom Die-Cuts', 'Eco-Friendly Solutions'],
+        ar: ['تصميم العلب', 'تصميم الملصقات', 'نماذج عرض المنتجات', 'تصميم الأكياس والأغلفة', 'قصات مخصصة', 'حلول صديقة للبيئة']
       },
       price: { en: 'Starting at $50', ar: 'ابتداءً من 50$' },
     },
