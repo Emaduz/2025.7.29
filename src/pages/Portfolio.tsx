@@ -227,7 +227,7 @@ const PortfolioPage: React.FC = () => {
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-[#a76552] bg-transparent"
           >
-            <a href="/contact">
+            <a href="/#/contact">
               {language === 'en' ? 'Start a Project' : 'ابدأ مشروعاً'}
             </a>
           </Button>
