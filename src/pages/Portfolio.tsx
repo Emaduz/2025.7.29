@@ -85,7 +85,7 @@ const PortfolioPage: React.FC = () => {
     {
       id: 8,
       title: { en: 'Jenan Yemeni Hony Logo Design', ar: 'تصميم شعار شركة جنان للعسل اليمني' },
-      category: 'Branding',
+      category: 'branding',
       image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/7c3596214380481.675743f08b052.jpeg',
       description: { en: 'Modern commerce branding design', ar: 'تصميم هوية تجارية عصرية' },
       tags: ['Commerce', 'Branding', 'Logo'],
@@ -231,7 +231,7 @@ const PortfolioPage: React.FC = () => {
             variant="outline"
             className="border-white text-white hover:bg-white hover:text-[#a76552] bg-transparent"
           >
-            <a href="/contact">
+            <a href="/#/contact">
               {language === 'en' ? 'Start a Project' : 'ابدأ مشروعاً'}
             </a>
           </Button>

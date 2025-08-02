@@ -14,7 +14,7 @@ const HomePage: React.FC = () => {
   const { t } = useTranslation(language);
 
   const stats = [
-    { icon: Briefcase, value: '9+', label: language === 'en' ? 'Years Experience' : 'سنوات خبرة' },
+    { icon: Briefcase, value: '7+', label: language === 'en' ? 'Years Experience' : 'سنوات خبرة' },
     { icon: Users, value: '200+', label: language === 'en' ? 'Happy Clients' : 'عميل سعيد' },
     { icon: Star, value: '500+', label: language === 'en' ? 'Projects Completed' : 'مشروع مكتمل' },
   ];
