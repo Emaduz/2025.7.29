@@ -89,7 +89,7 @@ const PortfolioPage: React.FC = () => {
     },
   ];
 
-  const filters = [
+  const filters = ['
     { key: 'all', label: { en: 'All Projects', ar: 'جميع المشاريع' } },
     { key: 'logos', label: { en: 'Logos', ar: 'الشعارات' } },
     { key: 'branding', label: { en: 'Branding', ar: 'العلامة التجارية' } },
