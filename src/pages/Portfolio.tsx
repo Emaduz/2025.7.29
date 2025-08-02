@@ -126,7 +126,7 @@ const PortfolioPage: React.FC = () => {
                   ? 'bg-[#8f1819] hover:bg-[#bd7b6a] text-white' 
                   : 'border-[#9c7860] text-[#9c7860] hover:bg-[#9c7860] hover:text-white dark:border-[#d9cab1] dark:text-[#d9cab1] dark:hover:bg-[#d9cab1] dark:hover:text-[#1a1a1a] bg-transparent'
                 }
-              }
+              
             >
               {filter.label[language]}
             </Button>
