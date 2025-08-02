@@ -3,7 +3,7 @@
  * Displays service categories with descriptions and pricing
  */
 import React from 'react';
-import { Palette, Layout, Printer, Smartphone, Globe, Camera, CheckCircle, ArrowRight } from 'lucide-react';
+import { Palette, Layout, Printer, Smartphone, Globe, Camera, CheckCircle, ArrowRight, PenTool, Layers, IdCard, Package } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { useTheme } from '../contexts/ThemeContext';
 import { useTranslation } from '../utils/translations';
@@ -79,8 +79,8 @@ const ServicesPage: React.FC = () => {
       icon: IdCard,
       title: { en: 'Profile Design', ar: 'تصميم البروفايلات' },
       description: { 
-        en: 'Modern and responsive website designs that engage users and drive conversions.',
-        ar: 'تصاميم مواقع عصرية ومتجاوبة تجذب المستخدمين وتحقق التحويلات.'
+        en: 'Modern and responsive profile designs your work deserves.',
+        ar: 'تصاميم حديثة بسيطة لبروفايل يستحقها.'
       },
       features: {
         en: ['Responsive Design', 'Landing Pages', 'E-commerce Design', 'CMS Integration', 'SEO Optimization', 'Performance Optimization'],
