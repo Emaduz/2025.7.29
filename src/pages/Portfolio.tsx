@@ -75,7 +75,7 @@ const PortfolioPage: React.FC = () => {
       id: 7,
       title: { en: 'Bahaa Silver Logo Design', ar: 'تصميم شعار شركة بهاء الفضة' },
       category: 'print',
-      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/c99968214380481.675743f086a49.jpeg'],
+      image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/8d1d60214380481.675743f07ecfa.jpeg'],
       description: { en: 'Creative Brand Logo by typography', ar: 'شعار علامة تجارية إبداعي بطريقة التايبوجرافي' },
       tags: ['Gold & Silver', 'Typography', 'Layout'],
     },
