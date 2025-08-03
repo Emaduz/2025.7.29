@@ -68,7 +68,7 @@ const PortfolioPage: React.FC = () => {
       title: { en: 'Al Khattabi Press Logo', ar: 'شعار مطابع الخطابي' },
       category: 'logos',
       image: ['https://mir-s3-cdn-cf.behance.net/project_modules/fs_webp/12d4c7214380481.675743f08a857.jpeg'],
-      description: { en: 'Innovative logos for Printing Press startups', ar: 'شعار مبتكر لشركة طباعة' },
+      description: { en: 'Innovative logo for Printing Press startups', ar: 'شعار مبتكر لشركة طباعة' },
       tags: ['Printing', 'Startup', 'Materials'],
     },
     {
