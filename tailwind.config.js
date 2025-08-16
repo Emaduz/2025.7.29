@@ -90,7 +90,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        kufi: ['"Noto Kufi Arabic"', 'sans-serif'],
+        ibm: ["IBM Plex Sans Arabic", "sans-serif"],
+        ruqaa: ["Ruqaa Ink", "serif"],
       },
     },
   },
