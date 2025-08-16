@@ -91,7 +91,6 @@ module.exports = {
     extend: {
       fontFamily: {
         ibm: ["IBM Plex Sans Arabic", "sans-serif"],
-        ruqaa: ["Ruqaa Ink", "serif"],
       },
     },
   },
